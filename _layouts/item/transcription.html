@@ -1,0 +1,28 @@
+---
+# basic image item layout
+# Displays image_small if available, with fall back to object_location. 
+# Adds gallery view to open images full screen using object_location, with fall back to image_small.
+layout: item/item-page-base
+gallery: true
+---
+
+<div class="row">
+    <div class="col-md-6">
+        {% include item/image-gallery.html %}
+        <br>
+    
+    </div>
+    <div class="col-md-6">
+        {% include item/download-buttons.html %}
+        {% if page.object_transcription %}
+        {% assign transcription_type = page.object_transcription | slice: 0,1 %}
+        {% if transcription_type == '/' %}
+        {% assign transcription_location = page.object_transcription | remove_first: '/' %}
+        {% assign transcription = site.pages | where: 'path', transcription_location | first %}
+        {{ transcription.content | markdownify }}
+        {% else %}
+        {{ page.object_transcription | markdownify }}
+        {% endif %}
+        {% endif %} 
+    </div>
+</div>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Primera carta al Dr. Castaño</title>
+                    <author>Roberto Busa</author>
+                    <editor>Nicolás Lázaro</editor>
+        <respStmt>
+        <resp>Codificación de</resp>
+               <persName>Gimena del Rio Riande</persName>
+            </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>HD LAB</publisher>
+      <date>03/07/2024</date>
+        <pubPlace>Buenos Aires, Argentina</pubPlace>
+        <availability>
+          <p>Se comparte bajo una licencia Creative Commons CC-BY (4.0)</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+            <p>Carta mecanografiada en papel con firma de Roberto Busa</p>
+            </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+  <body>
+  <div type="recto"> 
+<dateline>
+<placeName type ="city">Roma</placeName>
+ <date when="1992-07-09">9 de julio de 1992</date>
+ </dateline>
+<salute>Querido <persName ref="castaño">Dr. Castaño</persName></salute>
+<p><lb/>contesto de aquì y un poco de prisa –disculpe– a Su carta del <date when="1992-06-29">29 de Junio</date>.</p>
+<p><lb/>Le escribiré de nuevo cuando me llegue a <placeName type ="city">Gallarate</placeName> Su cheque.</p>
+<p><lb/>Mi consejo: no pida a ninguno de “dirigir Su tesis”: se van a asustar y diràn
+<lb/><corr>que</corr>no tienen tiempo… Haga asì: prepare un proyecto <sic>partcularizado</sic> de <corr>Su</corr> tema
+<lb/>y de como piensa desarrollarlo: 2/3 paginas dactyloescritas y pida cuales consejos
+<lb/>y crìticas pueden hacer.</p>
+<p><lb/>Los centros que Le puedo aconsejar y visitar son el de <orgName type="center">Köln Thomas Institut</orgName>,
+<lb/>el de <orgName type="center">Louvain-la-Neuve</orgName>, en <placeName type ="country">Inglaterra</placeName> los de <orgName type="center">Oxford</orgName>…
+<lb/>para <placeName type ="country">Italia</placeName>, organice de pasar mucho tiempo en <placeName type ="city">Roma</placeName>,
+<lb/>y unos dias en <placeName type ="city">Milàn</placeName>.</p>
+
+<p><lb/>Lo mejor serìa que Vd llegue con el aviòn a Milano-Malpensa: mi colegio està a 4 km de aquèl y yo puedo ospedarle en mi colegio.</p>
+
+<p><lb/>Lo mas necesario es que yo esté en mi casa cuando Vd llegue.</p>
+
+<p><lb/>Por eso, por favor dìgame cuanto mas antes Vd pueda su programa de viaje.</p>
+
+<p><lb/>Y cuente sobre mi llena voluntad de serle de auyda y servicio.</p>
+
+<p><lb/>Pero no tarde años: yo estoy pasando de 79 a 80 …</p>
+
+<p><lb/>(Yo puedo siempre introducir a Vd a los profesores de los institutos de arriba…)</p>
+
+         <closer>
+         <salute rend="handrwritten">
+               Afcmo
+            </salute>
+            <signed>
+               <signatures rend="handwritten"> Roberto Busa</signatures>
+            </signed>
+         </closer>
+<postscript>
+            <label rend="handwritten">P.S.</label>
+
+<p> Serìa mas seguro que Vd me escriba cual numero de fax sea el Suyo permanente…</p>
+         </postscript>  
+
+</div>
+ </body>
+</text>
+</TEI>
