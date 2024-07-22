@@ -14,14 +14,14 @@ gallery: true
     </div>
     <div class="col-md-6">
         {% include item/download-buttons.html %}
-        {% if page.object_transcripción %}
-        {% assign transcripción_type = page.object_transcripción | slice: 0,1 %}
-        {% if transcripción_type == '/' %}
-        {% assign transcripción_location = page.object_transcripción | remove_first: '/' %}
-        {% assign transcripción = site.pages | where: 'path', transcripción_location | first %}
-        {{ transcripción.content | markdownify }}
+        {% if page.object_transcripciones %}
+        {% assign transcripciones_type = page.object_transcripciones | slice: 0,1 %}
+        {% if transcripciones_type == '/' %}
+        {% assign transcripciones_location = page.object_transcripciones | remove_first: '/' %}
+        {% assign transcripciones = site.pages | where: 'path', transcripciones_location | first %}
+        {{ transcripciones.content | markdownify }}
         {% else %}
-        {{ page.object_transcripción | markdownify }}
+        {{ page.object_transcripciones | markdownify }}
         {% endif %}
         {% endif %} 
     </div>
