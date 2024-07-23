@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:id="carta3_p1">Tercera carta al Dr. Castaño, recto</title>
+                    <author>Roberto Busa</author>
+                    <editor>Gabriel Calarco</editor>
+        <respStmt>
+        <resp>Codificación de</resp>
+               <persName>Gabriel Calarco</persName>
+            </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>HD LAB</publisher>
+      <date>23/07/2024</date>
+        <pubPlace>Buenos Aires, Argentina</pubPlace>
+        <availability>
+          <p>Se comparte bajo una licencia Creative Commons CC-BY (4.0)</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+            <p>Carta manuscrita de Roberto Busa</p>
+            </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+  <body>
+  <div type="recto"> 
+<dateline rend="handwritten"> 
+ <date when="1993-06-02">2 de junio de 1993</date>
+ </dateline>
+<salute>Querido <persName ref="castaño">Castaño</persName>,</salute>
+<p rend="handwritten">
+<lb/>La conferencia aquí no sería 
+<lb/>mas que 45 minutos una
+<lb/>vez, que pueda ser repetida
+<lb/>sin cambios, en diferentes lugares…
+</p>
+<p rend="handwritten">
+<lb/>Es una esperanza de mi
+<lb/>buena voluntad de alcan
+<lb break="no"/>zar una tales posibili-
+<lb/>dades : no certidumbre ni
+<lb/>compromiso, sino una promesa
+<lb/><corr>t</corr>entativa…
+</p>
+</div>
+</body>
+</text>
+</TEI>

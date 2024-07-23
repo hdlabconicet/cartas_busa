@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:id="carta3_p2">Tercera carta al Dr. Castaño, vuelto</title>
+                    <author>Roberto Busa</author>
+                    <editor>Gabriel Calarco</editor>
+        <respStmt>
+        <resp>Codificación de</resp>
+               <persName>Gabriel Calarco</persName>
+            </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>HD LAB</publisher>
+      <date>23/07/2024</date>
+        <pubPlace>Buenos Aires, Argentina</pubPlace>
+        <availability>
+          <p>Se comparte bajo una licencia Creative Commons CC-BY (4.0)</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+            <p>Carta manuscrita de Roberto Busa</p>
+            </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+  <body>
+<div type="vuelto">
+<p rend="handwritten">
+<lb/>No puedo empezar a buscar
+<lb/>antes que Ud me envíe su 
+<lb/>programa preciso de presen-
+<lb break="no"/>cia en <placeName type="country">Italia</placeName>: entre noviembre y mayo
+</p>
+<p rend="handwritten">
+<lb/>Cuanto mas antes ya lo
+<lb/>sepa, tanto menos dificil 
+<lb/>conseguir succeso.
+</p>
+<p rend="handwritten">
+<lb/>Vuelvo del estranjero y tengo
+<lb/>un montón de cartas para
+<lb/>contestar…
+</p>
+  <closer>
+         <salute rend="handwritten">
+               Despense in <abbr>d<expan>[omi]</expan>no</abbr>
+            </salute>
+            <signed>
+               <signatures rend="handwritten"><persName>R. Busa</persName></signatures>
+            </signed>
+         </closer>
+</div>
+ </body>
+</text>
+</TEI>
