@@ -1,7 +1,7 @@
 ---
-title: About
+title: Modelo
 layout: about
-permalink: /about.html
+permalink: /modelo.html
 # include CollectionBuilder info at bottom
 credits: true
 # Edit the markdown on in this file to describe your collection
@@ -29,3 +29,5 @@ See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed informa
 
 {% include feature/image.html objectid="demo_001" width="75" %} 
 
+<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
+{% include cb/about_the_about.md %} 
