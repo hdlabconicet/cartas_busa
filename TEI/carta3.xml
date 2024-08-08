@@ -34,21 +34,49 @@
 <dateline rend="handwritten"> 
  <date when="1993-06-02">2 de junio de 1993</date>
  </dateline>
-<salute>Querido <persName ref="castaño">Castaño</persName>,</salute>
+<salute>Querido <persName key="castaño">Castaño</persName>,</salute>
 <p rend="handwritten">
 <lb/>La conferencia aquí no sería 
 <lb/>mas que 45 minutos una
 <lb/>vez, que pueda ser repetida
-<lb/>sin cambios, en diferentes lugares…
+<lb/>sin cambios, en diferentes 
+<lb/>lugares…
 </p>
 <p rend="handwritten">
 <lb/>Es una esperanza de mi
-<lb/>buena voluntad de alcan
+<lb/>buena voluntad de alcan-
 <lb break="no"/>zar una tales posibili-
-<lb/>dades : no certidumbre ni
+<lb/>dades: no certidumbre ni
 <lb/>compromiso, sino una promesa
 <lb/><corr>t</corr>entativa…
 </p>
+</div>
+<div type="vuelto">
+<p rend="handwritten">
+<lb/>No puedo empezar a buscar
+<lb/>antes que Ud me envíe su 
+<lb/>programa preciso de presen-
+<lb break="no"/>cia en <placeName key="italia">Italia</placeName>: entre Noviem-
+<lb break="no"/>bre y mayo
+</p>
+<p rend="handwritten">
+<lb/>Cuanto mas antes yo lo
+<lb/>sepa, tanto menos dificil 
+<lb/>conseguir <note xml:id="carta3n1">succeso</note>.
+</p>
+<p rend="handwritten">
+<lb/><note xml:id="carta3n2">Vuelvo del estranjero</note> y tengo
+<lb/>un montón de cartas para
+<lb/>contestar… Despense!
+</p>
+  <closer>
+         <salute rend="handwritten">
+                in <abbr>D<expan>[omi]</expan>no</abbr>
+            </salute>
+            <signed>
+               <signatures rend="handwritten"><persName>R. Busa</persName></signatures>
+            </signed>
+         </closer>
 </div>
 </body>
 </text>
