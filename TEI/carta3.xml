@@ -7,7 +7,7 @@
 <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title xml:id="carta3_p1">Tercera carta al Dr. Castaño, recto</title>
+        <title xml:id="carta3">Tercera carta al Dr. Castaño, recto</title>
                     <author>Roberto Busa</author>
                     <editor>Gabriel Calarco</editor>
         <respStmt>
@@ -74,7 +74,7 @@
                 in <abbr>D<expan>[omi]</expan>no</abbr>
             </salute>
             <signed>
-               <signatures rend="handwritten"><persName>R. Busa</persName></signatures>
+               <signatures rend="handwritten"><persName key="busa">R. Busa</persName></signatures>
             </signed>
          </closer>
 </div>

@@ -7,7 +7,7 @@
                 xmlns="http://www.w3.org/1999/xhtml">
                 
                 <xsl:template match="/">
-                    <xsl:variable name="doc_id" select="//@xml:id[1]"/> 
+                    <xsl:variable name="doc_id" select="//title/@xml:id"/> 
                     <!-- Recuperamos el id del documento en una variable para nombrar el archivo de salida -->
                     <!-- Redirigir el resultado hacia un archivo -->        
                     <xsl:result-document method="html" encoding="utf-8"
@@ -51,18 +51,32 @@
  
 
     <xsl:template match="//placeName">
-        <span> 
-            <xsl:attribute name="style">font-weight: bold;</xsl:attribute>
-            <xsl:apply-templates/>
-        </span>
+    <a>
+        <xsl:attribute name="class">pop-annotation</xsl:attribute>
+        <xsl:attribute name="tabindex">0</xsl:attribute>
+        <xsl:attribute name="id"><xsl:value-of select="@key"/></xsl:attribute>
+        <xsl:apply-templates/>
+        </a>
     </xsl:template>   
     
     
     <xsl:template match="//persName">
-        <span> 
-            <xsl:attribute name="style">font-weight: bold;</xsl:attribute>
-            <xsl:apply-templates/>
-        </span>
+    <a>
+        <xsl:attribute name="class">pop-annotation</xsl:attribute>
+        <xsl:attribute name="tabindex">0</xsl:attribute>
+        <xsl:attribute name="id"><xsl:value-of select="@key"/></xsl:attribute>
+        <xsl:apply-templates/>
+        </a>
+    </xsl:template>   
+
+      
+    <xsl:template match="//note">
+    <a>
+        <xsl:attribute name="class">pop-annotation</xsl:attribute>
+        <xsl:attribute name="tabindex">0</xsl:attribute>
+        <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+        <xsl:apply-templates/>
+        </a>
     </xsl:template>   
     
     <xsl:template match="//corr">
