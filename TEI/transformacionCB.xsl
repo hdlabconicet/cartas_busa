@@ -17,13 +17,10 @@
        ---
        <div>
 <p class="fecha"><xsl:apply-templates select="//dateline"/></p>
-<p class="saludo"><xsl:apply-templates select="//salute[1]"/></p>
 
-<xsl:apply-templates select="//div/p"/>
 
-<p class="saludo"><xsl:apply-templates select="//salute[2]"/></p>
-<p class="firma"><xsl:apply-templates select="//signatures"/></p>
-<p class="posdata"><xsl:apply-templates select="//postscript"/></p>
+<xsl:apply-templates select="//div"/>
+
 </div>
 
 
@@ -40,6 +37,31 @@
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+
+    <xsl:template match="//salute">
+        <p class="saludo">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+
+        <xsl:template match="//opener">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+
+            <xsl:template match="//signatures">
+        <p class="firma">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+
+            <xsl:template match="//postscript">
+        <p class="posdata">
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+
 
 
     <xsl:template match="//orgName">
@@ -67,7 +89,9 @@
         <xsl:attribute name="id"><xsl:value-of select="@key"/></xsl:attribute>
         <xsl:apply-templates/>
         </a>
-    </xsl:template>   
+    </xsl:template>  
+
+    
 
       
     <xsl:template match="//note">
@@ -89,5 +113,7 @@
 <xsl:template match="//lb">
         <br/>
     </xsl:template>   
+
+        <xsl:template match="//expan">[<xsl:apply-templates/>]</xsl:template>
 
 </xsl:stylesheet>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:id="carta5">Quinta carta al Dr. Castaño</title>
+                    <author>Roberto Busa</author>
+                    <editor>Nicolás Lázaro</editor>
+        <respStmt>
+        <resp>Codificación de</resp>
+               <persName>Nicolás Lázaro</persName>
+            </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>HD LAB</publisher>
+      <date>03/08/2024</date>
+        <pubPlace>Buenos Aires, Argentina</pubPlace>
+        <availability>
+          <p>Se comparte bajo una licencia Creative Commons CC-BY (4.0)</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+            <p>Carta manuscrita en papel, escrita en latín, con firma de Roberto Busa</p>
+            </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+<text>
+<body>
+<div type="recto">
+
+<opener>
+<choice><abbr>DMO</abbr><expan>Domino</expan></choice> <persName key="castaño"><choice><abbr>S.</abbr><expan>Sergio</expan></choice> <choice><abbr>R.</abbr><expan>Raúl</expan></choice> <sic>CASTANO</sic></persName>
+</opener>
+
+<salute>
+<persName key="busa">Robertus Busa</persName> <choice><abbr>SJ</abbr><expan>Societas Jesu</expan></choice> salutem plurimam dicit.
+</salute>
+
+<p>
+<lb/>Tibi, claro amicoque doctori, concedebam
+<lb/>ut unum exemplar mei <persName key="aquinas">Thomae <choice><abbr>Aq.</abbr><expan>Aquinatis</expan></choice></persName>
+<lb/><foreign xml:lang="en">CD-ROM</foreign> imminuto pretio emere
+valeas, scilicet <measure>Lit. 360,000</measure> aut <measure>$ 240=</measure>.
+</p>
+
+<p>
+<lb/>Maioribus rogo litteris <foreign xml:lang="en">(block letters)</foreign> hodier=
+<lb/>naque tuae nationis lingua, ea quae
+<lb/>oportet inscribas.
+</p>
+
+<p>
+<lb/>Si quos pernoscas collegas, qui tuo iu=
+<lb/>dicio talem pariter mereantur favo=
+<lb/>rem, eis quaeso consulas ut huius=
+<lb/>modi documentum, tui adducto
+<lb/>nomine, a me per epistolam aut
+<lb/><foreign xml:lang="en">“fax”</foreign> exquirant.
+</p>
+
+<closer>
+<salute>
+<lb/>Optima quaeque tibi a <choice><abbr>D.O.M.</abbr><expan>Deo Optimo Maximo</expan></choice>
+<lb/>ominans adprecabor.
+</salute>
+<lb/><dateline><date when="1996-07-31">Die 31 Julii <choice><abbr>AD</abbr><expan>Anno Domini</expan></choice> 1996</date></dateline>
+<signed>
+<signatures><persName key="busa">Roberto Busa</persName> SJ</signatures>
+</signed>
+</closer>
+
+</div>
+</body>
+</text>
+</TEI>

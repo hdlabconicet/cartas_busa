@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model
-  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
-  schematypens="http://relaxng.org/ns/structure/1.0"
-  type="application/xml"?>
+<?xml-model href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
@@ -56,7 +53,7 @@
 <lb/>No puedo empezar a buscar
 <lb/>antes que Ud me envíe su 
 <lb/>programa preciso de presen-
-<lb break="no"/>cia en <placeName key="italia">Italia</placeName>: entre Noviem-
+<lb break="no"/>cia en Italia: entre Noviem-
 <lb break="no"/>bre y mayo
 </p>
 <p rend="handwritten">
@@ -65,13 +62,13 @@
 <lb/>conseguir <note xml:id="carta3n1">succeso</note>.
 </p>
 <p rend="handwritten">
-<lb/><note xml:id="carta3n2">Vuelvo del estranjero</note> y tengo
+<lb/>Vuelvo del estranjero y tengo
 <lb/>un montón de cartas para
 <lb/>contestar… Despense!
 </p>
   <closer>
          <salute rend="handwritten">
-                in <abbr>D<expan>[omi]</expan>no</abbr>
+                in <abbr>D<expan>omi</expan>no</abbr>
             </salute>
             <signed>
                <signatures rend="handwritten"><persName key="busa">R. Busa</persName></signatures>
