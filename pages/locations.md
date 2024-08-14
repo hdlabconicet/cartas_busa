@@ -9,4 +9,4 @@ cloud-fields: site.data.theme.locations-fields
 
 ## Buscar por localización
 
-Encuentra elementos en la colección según su localización.
+Encuentra los documentos de la colección según su localización.
