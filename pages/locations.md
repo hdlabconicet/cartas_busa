@@ -9,4 +9,4 @@ cloud-fields: site.data.theme.locations-fields
 
 ## Lugares
 
-Encuentra los documentos de la colección según su localización.
+Encuentra los documentos según su localización.
