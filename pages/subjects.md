@@ -7,6 +7,6 @@ permalink: /subjects.html
 cloud-fields: site.data.theme.subjects-fields
 ---
 
-## Buscar por tema
+## Temas
 
 Estas etiquetas te permitirán explorar los temas y palabras clave de la colección.

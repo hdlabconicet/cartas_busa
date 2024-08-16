@@ -1,5 +1,5 @@
 ---
-title: About
+title: Acerca de
 layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
