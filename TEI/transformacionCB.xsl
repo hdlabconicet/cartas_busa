@@ -16,7 +16,7 @@
         title: <xsl:apply-templates select="$doc_id"/>
        ---
        <div>
-<p class="fecha"><xsl:apply-templates select="//dateline"/></p>
+
 
 
 <xsl:apply-templates select="//div"/>
@@ -32,14 +32,21 @@
     <!-- Transformaciones -->
 
 
+
+<xsl:template match="//date">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+
 <xsl:template match="//p">
         <p>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
 
-    <xsl:template match="//salute">
-        <p class="saludo">
+    <xsl:template match="//closer">
+        <p>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
@@ -110,9 +117,9 @@
         </span>
     </xsl:template>
 
-<xsl:template match="//lb">
+<!-- <xsl:template match="//lb">
         <br/>
-    </xsl:template>   
+    </xsl:template>    -->
 
         <xsl:template match="//expan">[<xsl:apply-templates/>]</xsl:template>
 

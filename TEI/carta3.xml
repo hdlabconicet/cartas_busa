@@ -31,7 +31,9 @@
 <dateline rend="handwritten"> 
  <date when="1993-06-02">2 de junio de 1993</date>
  </dateline>
+<opener>
 <salute>Querido <persName key="castaño">Castaño</persName>,</salute>
+</opener>
 <p rend="handwritten">
 <lb/>La conferencia aquí no sería 
 <lb/>mas que 45 minutos una
