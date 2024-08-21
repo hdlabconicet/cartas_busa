@@ -7,6 +7,6 @@ permalink: /locations.html
 cloud-fields: site.data.theme.locations-fields
 ---
 
-## Buscar por localización
+## Lugares
 
-Encuentra elementos en la colección según su localización.
+Encuentra los documentos según su localización.
