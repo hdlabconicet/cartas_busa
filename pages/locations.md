@@ -1,5 +1,5 @@
 ---
-title: Localización
+title: Lugares
 layout: cloud
 permalink: /locations.html
 # Default locations page is configured in "_data/theme.yml"
@@ -9,4 +9,4 @@ cloud-fields: site.data.theme.locations-fields
 
 ## Lugares
 
-Encuentra los documentos según su localización.
+Encuentra los documentos según el lugar desde el que fueron enviados.
