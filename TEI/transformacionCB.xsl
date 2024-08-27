@@ -71,13 +71,32 @@
 
 
 
-    <xsl:template match="//orgName">
+    <xsl:template match="//add">
         <span> 
             <xsl:attribute name="style">font-weight: bold;</xsl:attribute>
             <xsl:apply-templates/>
         </span>
     </xsl:template>   
+
+
+    
+    <xsl:template match="//hi">
+        <hi rend="underline"> 
+            <xsl:apply-templates/>
+        </hi>
+    </xsl:template>   
  
+    <xsl:template match="//del">
+        <strike> 
+            <xsl:apply-templates/>
+        </strike>
+    </xsl:template>  
+     
+    <xsl:template match="//expan">
+        <i> 
+            <xsl:apply-templates/>
+        </i>
+    </xsl:template>   
 
     <xsl:template match="//placeName">
     <a>
@@ -117,10 +136,5 @@
         </span>
     </xsl:template>
 
-<!-- <xsl:template match="//lb">
-        <br/>
-    </xsl:template>    -->
-
-        <xsl:template match="//expan">[<xsl:apply-templates/>]</xsl:template>
 
 </xsl:stylesheet>
