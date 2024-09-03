@@ -33,16 +33,16 @@
 <div type="recto">
 
 <opener>
-<choice><abbr>DMO</abbr><expan>Domino</expan></choice> <persName key="castaño"><choice><abbr>S.</abbr><expan>Sergio</expan></choice> <choice><abbr>R.</abbr><expan>Raúl</expan></choice> <sic>CASTANO</sic></persName>
+<abbr>D<expan>o</expan>M<expan>in</expan>O</abbr> <persName key="castaño"><abbr>S<expan>ergio</expan>.</abbr> <abbr>R<expan>aúl</expan>.</abbr> <sic>CASTANO</sic></persName>
 </opener>
 
 <salute>
-<persName key="busa">Robertus Busa</persName> <choice><abbr>SJ</abbr><expan>Societas Jesu</expan></choice> salutem plurimam dicit.
+<persName key="busa">Robertus Busa</persName> <abbr>S<expan>ocietas</expan> J<expan>esu</expan></abbr> salutem plurimam dicit.
 </salute>
 
 <p>
 <lb/>Tibi, claro amicoque doctori, concedebam
-<lb/>ut unum exemplar mei <persName key="aquinas">Thomae <choice><abbr>Aq.</abbr><expan>Aquinatis</expan></choice></persName>
+<lb/>ut unum exemplar mei <persName key="aquino">Thomae <abbr>Aq<expan>uinatis</expan>.</abbr></persName>
 <lb/><foreign xml:lang="en">CD-ROM</foreign> imminuto pretio emere
 valeas, scilicet <measure>Lit. 360,000</measure> aut <measure>$ 240=</measure>.
 </p>
@@ -64,10 +64,10 @@ valeas, scilicet <measure>Lit. 360,000</measure> aut <measure>$ 240=</measure>.
 
 <closer>
 <salute>
-<lb/>Optima quaeque tibi a <choice><abbr>D.O.M.</abbr><expan>Deo Optimo Maximo</expan></choice>
+<lb/>Optima quaeque tibi a <abbr>D<expan>eo</expan>. O<expan>ptimo</expan>. M<expan>aximo</expan>.</abbr>
 <lb/>ominans adprecabor.
 </salute>
-<lb/><dateline><date when="1996-07-31">Die 31 Julii <choice><abbr>AD</abbr><expan>Anno Domini</expan></choice> 1996</date></dateline>
+<lb/><dateline><date when="1996-07-31">Die 31 Julii <abbr>A<expan>nno</expan> D<expan>omini</expan></abbr> 1996</date></dateline>
 <signed>
 <signatures><persName key="busa">Roberto Busa</persName> SJ</signatures>
 </signed>

@@ -10,6 +10,7 @@
 {%- endcomment -%}
 <div class="btn-group" role="group" aria-label="Item options">
     {% if page.object_transcript %}<button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTranscript" aria-expanded="false" aria-controls="collapseExample">Transcripción</button>{% endif %}
+    {% if page.translation_transcript %}<button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTranslation" aria-expanded="false" aria-controls="collapseExample">Traducción</button>{% endif %}
     {% if page.date %}{%- capture year -%}{% if page.date contains "-" %}{{ page.date | split: "-" | first }}{% elsif page.date contains "/" %}{{ page.date | split: "/" | last }}{% else %}{{ page.date }}{% endif %}{%- endcapture -%}
     <a href="{{ year | strip | prepend: '/timeline.html#y' | relative_url }}" class="btn btn-outline-primary">Ver en la cronología</a>{% endif %}
     {% if page.latitude and page.longitude %}
@@ -28,6 +29,20 @@
         {{ transcript.content | markdownify }}
         {% else %}
         {{ page.object_transcript | markdownify }}
+        {% endif %}
+    </div>
+</div>
+{% endif %} 
+{% if page.translation_transcript %}
+<div class="collapse mt-3" id="collapseTranslation">
+    <div class="card card-body text-start">
+        {% assign translation_type = page.translation_transcript | slice: 0,1 %}
+        {% if translation_type == '/' %}
+        {% assign translation_location = page.translation_transcript | remove_first: '/' %}
+        {% assign translation = site.pages | where: 'path', translation_location | first %}
+        {{ translation.content | markdownify }}
+        {% else %}
+        {{ page.translation_transcript | markdownify }}
         {% endif %}
     </div>
 </div>

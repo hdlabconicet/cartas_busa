@@ -33,7 +33,7 @@
 <div type="recto"> 
 
      <dateline><date when="1992-11-02">6 de noviembre de 1992</date></dateline>
-    <salute>Querido <persName key="sergio">Sergio</persName>,</salute>
+    <salute>Querido <persName key="castaño">Sergio</persName>,</salute>
    <p> 
   <lb/> contesto de prisa a Su carta del 18 pasado. <add rend="handwritten">(llegó hace 10 días)</add>
   </p>
@@ -51,7 +51,7 @@
        <lb/> Explore también los compromisos que tienen las Universidades
        <lb/> Catòlicas entre ellas: la de <placeName key="milan">Milan</placeName> y la de allì. Talvez como la
        <lb/> de <placeName key="milan">Milan</placeName> tiene una huespederìa, quien sabe serìa màs facil conseguir
-       <lb/> hospitalidad que dinero: no sé.. <add rend="handwritten"> Aconséjese con <abbr>m<expan>on</expan>s<expan>i</expan>g<expan>nor</expan></abbr> <persName key="derisi">Derisi</persName></add>
+       <lb/> hospitalidad que dinero: no sé.. <add rend="handwritten"> Aconséjese con <persName key="derisi"><abbr>m<expan>on</expan>s<expan>i</expan>g<expan>nor</expan></abbr> Derisi</persName></add>
     </p>
     <p>
        <lb/>3. Al <orgName type="center">Aloisianum</orgName> hospedar Ud. y Su Señora es posibil: pero somos
@@ -68,11 +68,11 @@
        <lb/> cuando el viaje y su fechas sean fijadas: no antes.
     </p>
      <p>
-         <lb/> 5. Si <abbr>Ud.<expan>[usted]</expan>no</abbr> permite, mi sugerencia es: empezar una bùsqueda lexicogràfica
-         <lb/> sobre el vocabulario, es decir, las palabras, que <persName key="arist."><abbr>Arist<expan>óteles</expan>.</abbr></persName> emplea cuando
+         <lb/> 5. Si Ud. permite, mi sugerencia es: empezar una bùsqueda lexicogràfica
+         <lb/> sobre el vocabulario, es decir, las palabras, que <persName key="aristoteles"><abbr>Arist<expan>óteles</expan>.</abbr></persName> emplea cuando
          <lb/> hable de la <abbr>pol<expan>ítica</expan>.</abbr> del <abbr>h<expan>ombre</expan>.</abbr>; buscar todos los contextos en todas las
          <lb/> obras. Después, ver <del>los</del> <add rend="handwritten">unos</add> comentarios antiguos célebres a estos lugares
-         <lb/> = Emplear los comentarios de <persName key="santo tomás">Santo Tomás</persName> sin decirlo y como ideas
+         <lb/> = Emplear los comentarios de <persName key="aquino">Santo Tomás</persName> sin decirlo y como ideas
          <lb/> suyas de Ud. (podrà sacar de aquì articulos para revistas “nuestras”).
      </p>
      <p>
@@ -81,10 +81,10 @@
        <lb/> en el CD ROM de <orgName type="center">Irvine <abbr>Calif<expan>ornia</expan>.</abbr></orgName>:<orgName type="database">Thesaurus Linguae Graecae</orgName>) si Ud. fuera
        <lb/> el “enviado por Dios” para este trabajo, tendrìa una base monumen-
        <lb break="no"/> tal y sòlida para después ayudar a los <add rend="handwritten">“</add>pobrecitos grandes sabios de
-      <lb/>  hoy<add rend="handwritten">”</add> a obedecer a la verdad come <persName key="santo tomás">Santo Tomas</persName> y con él…
+      <lb/>  hoy<add rend="handwritten">”</add> a obedecer a la verdad come <persName key="aquino">Santo Tomas</persName> y con él…
       </p>
        <closer>
-         <salute rend="handwritten"> <abbr>Af<expan>e</expan>c<expan>tísi</expan>mo</abbr>suyo in <abbr>D<expan>omi</expan>no</abbr> 
+         <salute rend="handwritten"> <abbr>Af<expan>e</expan>c<expan>tísi</expan>mo</abbr> suyo in <abbr>D<expan>omi</expan>no</abbr> 
          </salute>
             <signed>
               <signatures><persName key="busa">Roberto Busa</persName></signatures>
