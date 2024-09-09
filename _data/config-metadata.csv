@@ -6,6 +6,4 @@ description,Descripción,,,DCTERMS.description,description
 subject,Temas,true,,DCTERMS.subject,keywords
 location,Lugares,,,,contentLocation
 source,Fuente,,,,
-type,Tipo,,,DCTERMS.type,
-format,Formato,,,,encodingFormat
 rightsstatement,Declaración de derechos,,,DCTERMS.rights,license
