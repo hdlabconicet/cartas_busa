@@ -8,7 +8,7 @@ credits: true
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-{% include feature/jumbotron.html objectid="https://github.com/gabrielcalarco/cartas_busa/blob/main/objects/folleto.jpg" %} 
+<!-- {% include feature/jumbotron.html objectid="https://github.com/gabrielcalarco/cartas_busa/blob/main/objects/folleto.jpg" %}  -->
 
 {% include feature/nav-menu.html sections="Sobre las cartas de Busa;Breves recuerdos de mi relación con el Padre Busa" %}
 
@@ -37,5 +37,5 @@ Investigador Principal del CONICET
 Catedrático de Teoría del Estado (Universidad Nacional del Comahue)
 Director del Centro de Estudios Políticos (Universidad del Norte Santo Tomás de Aquino)
 
-{% include feature/image.html objectid="folleto.jpg" width="75" %} 
+<!-- {% include feature/image.html objectid="folleto.jpg" width="75" %}  -->
 
