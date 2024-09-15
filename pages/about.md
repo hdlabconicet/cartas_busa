@@ -22,6 +22,6 @@ El jesuita era asiduo expositor de las Semanas Tomistas, evento organizado por l
 
 Las cartas que aquí editamos son parte de las conversaciones privadas que Busa mantuvo con el investigador argentino Sergio Castaño, cuando este era aún un joven estudiante. En estos textos se nos desvela un Busa comprensivo y cariñoso, que hace todo lo posible por escribir en español y aconsejar a Castaño en posibles visitas a Gallarate, y en los temas y posibles directores de su tesis. También leemos los problemas que todos quienes hacemos Filología Digital sufrimos: financiar y difundir la investigación (la quinta carta en latin). Los folletos promocionales de las Escuela de Lexicografía y Hermenéutica tomística computarizada, de la segunda edición de las obras completas de Tomás de Aquino en CD-Rom, la Newsletter del CAEL y las tradicionales postales de Navidad completan el perfil de un Padre Busa que de tan humano resulta casi divino.
 
-
-{% include feature/image.html objectid="demo_001" width="75" %} 
+## Breves recuerdos de mi relación con el Padre Busa
+{% include feature/image.html objectid="folleto.jpg" width="75" %} 
 
