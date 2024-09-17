@@ -33,17 +33,17 @@
 <body>
 <div type="recto">
 <salute>
-<persName key="busa">Roberto Busa</persName> <choice><abbr>SJ</abbr><expan>Societas Jesu</expan></choice> saluda con el mayor afecto al <choice><abbr>SR</abbr><expan>Señor</expan></choice> <persName key="castaño">Sergio Raúl Castaño</persName> 
+<persName key="busa">Roberto Busa</persName> <choice><abbr>S</abbr><expan>ocietas</expan> <abbr>J</abbr><expan>esu</expan></choice> saluda con el mayor afecto al <choice><abbr>S</abbr><expan>eño</expan><abbr>R</abbr></choice> <persName key="castaño">Sergio Raúl Castaño</persName> 
 </salute>
 
 <p>
   <lb/>A ti, claro y amigo doctor, te concedía 
   <lb/>que puedas comprar un ejemplar de mi CD-ROM <persName key="aquino">Tomás de Aquino</persName>
-  <lb/>por la suma reducida de <measure>360,000</measure> liras italianas o <measure>$ 240=</measure>
+  <lb/>por la suma reducida de <note xml:id="carta5n1"><measure>360,000</measure> liras italianas o <measure>$ 240=</measure></note>
 </p>
 
 <p>
-  <lb/>Te ruego que en en letras mayúsculas 
+  <lb/>Te ruego que en <note xml:id="carta5n2">letras mayúsculas </note>
   <lb/>me escribas lo que consideres oportuno. 
 </p>
 

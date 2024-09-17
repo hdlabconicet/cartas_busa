@@ -44,11 +44,11 @@
 <lb/>Tibi, claro amicoque doctori, concedebam
 <lb/>ut unum exemplar mei <persName key="aquino">Thomae <abbr>Aq<expan>uinatis</expan>.</abbr></persName>
 <lb/><foreign xml:lang="en">CD-ROM</foreign> imminuto pretio emere
-valeas, scilicet <measure>Lit. 360,000</measure> aut <measure>$ 240=</measure>.
+valeas, scilicet <note xml:id="carta5n1"><measure>Lit. 360,000</measure> aut <measure>$ 240=</measure></note>.
 </p>
 
 <p>
-<lb/>Maioribus rogo litteris <foreign xml:lang="en">(block letters)</foreign> hodier=
+<lb/>Maioribus <note xml:id="carta5n2">rogo litteris <foreign xml:lang="en">(block letters)</foreign></note> hodier=
 <lb/>naque tuae nationis lingua, ea quae
 <lb/>oportet inscribas.
 </p>

@@ -55,7 +55,7 @@
     </p>
     <p>
        <lb/>3. Al <orgName type="center">Aloisianum</orgName> hospedar Ud. y Su Señora es posibil: pero somos
-       <lb/> administrados para seglares y ellos cargan 60.000 liras italianas <add rend="typescript">cada</add>
+       <lb/> administrados para seglares y ellos cargan 60.000 <note xml:id="carta2n2">liras italianas</note> <add rend="typescript">cada</add>
        <lb/><add rend="typescript">dìa</add> por persona. No se, pero pienso que descuentos <hi rend="underline">no</hi> sean imposibles,
        <lb/> sobretodo cuando sea por varios dìas y con cuarto a dos camas.
      </p>
@@ -78,13 +78,13 @@
      <p>
        <lb/> 6. Otra idea: averiguar si aùn  no haya concordancias “lematizadas”
        <lb/> de  todo <persName key="aristoteles">Aristoteles</persName> (creo que las obras ya estén grabadas a lo menos
-       <lb/> en el CD ROM de <orgName type="center">Irvine <abbr>Calif<expan>ornia</expan>.</abbr></orgName>:<orgName type="database">Thesaurus Linguae Graecae</orgName>) si Ud. fuera
+       <lb/> en el CD ROM de <note xml:id="carta2n3">Irvine <abbr>Calif<expan>ornia</expan>.</abbr></note>:<note xml:id="carta2n1">Thesaurus Linguae Graecae</note>) si Ud. fuera
        <lb/> el “enviado por Dios” para este trabajo, tendrìa una base monumen-
        <lb break="no"/> tal y sòlida para después ayudar a los <add rend="handwritten">“</add>pobrecitos grandes sabios de
       <lb/>  hoy<add rend="handwritten">”</add> a obedecer a la verdad come <persName key="aquino">Santo Tomas</persName> y con él…
       </p>
        <closer>
-         <salute rend="handwritten"> <abbr>Af<expan>e</expan>c<expan>tísi</expan>mo</abbr> suyo in <abbr>D<expan>omi</expan>no</abbr> 
+         <salute rend="handwritten"> <note xml:id="carta1n4"><abbr>Af<expan>e</expan>c<expan>tísi</expan>mo</abbr></note> suyo in <abbr>D<expan>omi</expan>no</abbr> 
          </salute>
             <signed>
               <signatures><persName key="busa">Roberto Busa</persName></signatures>
