@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model
+  href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_all.rng"
+  schematypens="http://relaxng.org/ns/structure/1.0"
+  type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:id="newsletter">Newsletter del CAEL</title>
+                    <author>Roberto Busa</author>
+        <respStmt>
+        <resp>Codificación de</resp>
+               <persName>Gabriel Calarco</persName>
+            </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>HD LAB</publisher>
+      <date>03/07/2024</date>
+        <pubPlace>Buenos Aires, Argentina</pubPlace>
+        <availability>
+          <p>Se comparte bajo una licencia Creative Commons CC-BY (4.0)</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+            <p>Newsletter del CAEL con dedicatoria y anotación manuscrita de Roberto Busa</p>
+            </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+  <body>
+  <div type="recto"> 
+<dateline><date when="14">14-10-95</date></dateline>
+<p>
+<lb/>Devuelvo a Uds todos los deseos...
+<lb/>Pienso a Uds como a jóvenes que ahora
+<lb/>siembran su mucho trabajo y poco 
+<lb/>más tarde, recogerán</p>
+</div>
+<div type="vuelto">  
+ <p><lb/>Buon Natale! Buon anno!</p>
+ <p><lb/>Happy Christmas! Happy New Year!</p>
+ <closer>
+  <salute rend="handwritten"><lb/>In nomine Domini</salute>
+  <signed><signatures><persName key="busa"><lb/>P. Roberto Busa</persName> <choice><abbr>S</abbr><expan>ocietas</expan> <abbr>J</abbr><expan>esu</expan></choice></signatures></signed>
+</closer>
+ </div>
+
+  </body>
+      </text>
+      </TEI>

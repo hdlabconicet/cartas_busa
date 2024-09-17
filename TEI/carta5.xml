@@ -69,7 +69,7 @@ valeas, scilicet <note xml:id="carta5n1"><measure>Lit. 360,000</measure> aut <me
 </salute>
 <lb/><dateline><date when="1996-07-31">Die 31 Julii <abbr>A<expan>nno</expan> D<expan>omini</expan></abbr> 1996</date></dateline>
 <signed>
-<signatures><persName key="busa">Roberto Busa</persName> SJ</signatures>
+<signatures><persName key="busa">Roberto Busa</persName> <choice><abbr>S</abbr><expan>ocietas</expan> <abbr>J</abbr><expan>esu</expan></choice></signatures>
 </signed>
 </closer>
 

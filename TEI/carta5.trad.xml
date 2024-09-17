@@ -61,7 +61,7 @@
    </salute> 
    <lb/><dateline><date when="1996-07-31"> Día 31 de Julio del año de Nuestro Señor de 1996.</date></dateline>
    <signed>
-<signatures><persName key="busa">Roberto Busa</persName> SJ</signatures>
+<signatures><persName key="busa">Roberto Busa</persName> <choice><abbr>S</abbr><expan>ocietas</expan> <abbr>J</abbr><expan>esu</expan></choice></signatures>
 </signed>
 </closer>
 
