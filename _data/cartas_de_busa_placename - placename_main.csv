@@ -1,8 +1,8 @@
 key,city,country,latitude,longitude,comment,annotation
 gallarate,Gallarate,Italia,45.6602,8.79348,,"En 1956, se creó el Centro per L'Automazione dell'Analisi Letteraria (CAAL), que luego de una etapa a mitad de camino entre las oficinas de IBM en Nueva York e Italia, en 1961 se trasladó definitivamente a una antigua fábrica textil en Gallarate, Milán. El acrónimo CAAL a veces también funcionaba como Centro Automazione Analisi Linguistica. En 1983 se renombró como CAEL (Computerizzazione delle Analisi Ermeneutiche e Lessicografiche)."
-louvain,Louvain-la-Neuve,Bélgica,50.66958333,4.611194444,,"Louvain-la-Neuve"
-koln,Köln Thomas Institut,Alemania,50.92675313,6.929659869,,"Köln Thomas Institut"
-oxford,Universidad de Oxford,Inglaterra,51.7575609,-1.254646646,,"Universidad de Oxford"
-roma,Roma,Italia,41.903677,12.493679,,"Roma"
-milan,Milán,Italia,45.46694444,9.19,,"Milán"
-malpensa,Aeropuerto de Milán-Malpensa,Italia,45.62900239,8.726205677,,"Aeropuerto de Milán-Malpensa"
+louvain,Louvain-la-Neuve,Bélgica,50.66958333,4.611194444,,
+koln,Köln Thomas Institut,Alemania,50.92675313,6.929659869,,
+oxford,Universidad de Oxford,Inglaterra,51.7575609,-1.254646646,,
+roma,Roma,Italia,41.903677,12.493679,,
+milan,Milán,Italia,45.46694444,9.19,,
+malpensa,Aeropuerto de Milán-Malpensa,Italia,45.62900239,8.726205677,,

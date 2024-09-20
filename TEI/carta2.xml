@@ -47,9 +47,9 @@
     <p>
        <lb/> 2. Las becas italianas ahora son imposibles: como nuestro estado
        <lb/> tiene problemas con la <abbr>com<expan>isión</expan>.</abbr> Europea <add rend="handwritten">que Ud. sabe</add>.
-       <lb/> Talvez, Ud. podrà explorar con la Charitas de <placeName key="alemania">Alemania</placeName> …
+       <lb/> Talvez, Ud. podrà explorar con la Charitas de Alemania…
        <lb/> Explore también los compromisos que tienen las Universidades
-       <lb/> Catòlicas entre ellas: la de <placeName key="milan">Milan</placeName> y la de allì. Talvez como la
+       <lb/> Catòlicas entre ellas: la de <placeName type="ciudad" key="milan">Milan</placeName> y la de allì. Talvez como la
        <lb/> de <placeName key="milan">Milan</placeName> tiene una huespederìa, quien sabe serìa màs facil conseguir
        <lb/> hospitalidad que dinero: no sé.. <add rend="handwritten"> Aconséjese con <persName key="derisi"><abbr>m<expan>on</expan>s<expan>i</expan>g<expan>nor</expan></abbr> Derisi</persName></add>
     </p>
@@ -94,7 +94,7 @@
 
 </div>
 </body>
-  <fw> <orgName type="center">Aloisianum</orgName> - Via Gonzaga, 8 - 21013 Gallarate (Va) <placeName key="italia">Italia</placeName> - Tel. +39(0)331/780431 - 796167 - Fax +39(0)331/771559 </fw>
+  <fw> <orgName type="center">Aloisianum</orgName> - Via Gonzaga, 8 - 21013 <placeName key="gallarate">Gallarate</placeName> (Va) Italia - Tel. +39(0)331/780431 - 796167 - Fax +39(0)331/771559 </fw>
 
 </text>
 </TEI>

@@ -37,17 +37,17 @@
  </dateline>
 <salute>Querido <persName key="castaño">Dr. Castaño</persName></salute>
 <p><lb/>contesto de aquì y un poco de prisa –disculpe– a Su carta del 29 de Junio.</p>
-<p><lb/>Le escribiré de nuevo cuando me llegue a <placeName type ="city" key="gallarate">Gallarate</placeName> <note xml:id="carta1n1">Su cheque</note>.</p>
+<p><lb/>Le escribiré de nuevo cuando me llegue a <placeName type ="ciudad" key="gallarate">Gallarate</placeName> <note xml:id="carta1n1">Su cheque</note>.</p>
 <p><lb/>Mi consejo: no pida a ninguno de “dirigir Su tesis”: se van a asustar y diràn
 <lb/><corr>que</corr> no tienen tiempo… Haga asì: prepare un proyecto <sic>partcularizado</sic> de <corr>Su</corr> tema
 <lb/>y de como piensa desarrollarlo: 2/3 paginas <note xml:id="carta1n2">dactyloescritas</note> y pida cuales consejos
 <lb/>y crìticas pueden hacer.</p>
-<p><lb/>Los centros que Le puedo aconsejar y visitar son el de <orgName type="center">Köln Thomas Institut</orgName>,
-<lb/>el de <orgName type="center">Louvain-la-Neuve</orgName>, en Inglaterra los de <orgName type="center">Oxford</orgName>…
-<lb/>para Italia, organice de pasar mucho tiempo en Roma,
-<lb/>y unos dias en Milàn.</p>
+<p><lb/>Los centros que Le puedo aconsejar y visitar son el de <placeName type="center" key="koln">Köln Thomas Institut</placeName>,
+<lb/>el de <placeName type="center" key="louvain">Louvain-la-Neuve</placeName>, en Inglaterra los de <placeName type="center" key="oxford">Oxford</placeName>…
+<lb/>para Italia, organice de pasar mucho tiempo en <placeName type="ciudad" key="roma">Roma</placeName>,
+<lb/>y unos dias en <placeName type="ciudad" key="milan">Milàn</placeName>.</p>
 
-<p><lb/>Lo mejor serìa que Vd llegue con el aviòn a Milano-Malpensa: <note xml:id="carta1n3">mi colegio</note> està a 4 km de aquèl y  <hi rend="underline">yo puedo ospedarle en mi colegio</hi>.</p>
+<p><lb/>Lo mejor serìa que Vd llegue con el aviòn a <placeName type="aeropuerto" key="malpensa">Milano-Malpensa</placeName>: <note xml:id="carta1n3">mi colegio</note> està a 4 km de aquèl y  <hi rend="underline">yo puedo ospedarle en mi colegio</hi>.</p>
 
 <p><lb/>Lo mas necesario es que yo esté en mi casa cuando Vd llegue.</p>
 
