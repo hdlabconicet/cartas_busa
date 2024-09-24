@@ -1,6 +1,6 @@
 field,display_name,btn,hidden,sort_name
-date,Fecha,,,Date
+date,Fecha,,,Fecha
 creator,Creador/a,,,
 subject,,true
 location,,true
-identifier,,,true,Identifier
+identifier,,,true,Identificador
