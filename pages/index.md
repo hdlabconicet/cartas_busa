@@ -1,6 +1,6 @@
 ---
 layout: home-infographic
-title: Inicio
+title: Cartas de Busa
 permalink: /
 ---
 
