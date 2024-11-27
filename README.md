@@ -1,6 +1,8 @@
 # Cartas de Busa
 Edición digital de las cartas del Padre Roberto Busa al Dr. Sergio Castaño. Una pequeña historia de las humanidades digitales en Argentina usando Collection Builder-CSV.
 
+[![DOI](https://zenodo.org/badge/830562305.svg)](https://doi.org/10.5281/zenodo.14231116)
+
 # CollectionBuilder-CSV
 
 CollectionBuilder-CSV is a robust and flexible "stand alone" template for creating digital collection and exhibit websites using Jekyll and a metadata CSV.
