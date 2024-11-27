@@ -1,6 +1,6 @@
 ---
 layout: home-infographic
-title: Inicio
+title: Busa's Letters
 permalink: /
 ---
 
