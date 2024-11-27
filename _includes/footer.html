@@ -24,7 +24,7 @@
 
         </div>
 
-        <div class="col-md-5 mt-3 text-center">
+        <!-- <div class="col-md-5 mt-3 text-center">
 
            {% if site.organization-logo-nav %} <p class="text-md-end">
                 <a href="{{ site.organization-link }}" target="_blank" rel="noopener">
@@ -41,12 +41,20 @@
                 </small>
             </p>
 
-        </div>
+        </div> -->
 
     </div>
 
     <div class="col-md-12 text-center pt-3 pb-1">
-        <p class="text-white">Última actualización {{ site.time | date: '%Y' }}</p>
+        <small>
+            <a href="https://hdlab.space/" target="_blank" rel="noopener" title="HD Lab CONICET">
+                <img src="{{ '/assets/img/hdlab-logo.png' | relative_url }}" class="img-fluid" alt="HD Lab CONICET" >
+            </a>
+
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/ " target="_blank" rel="noopener" title="Licencia Creative Commons">
+                <img src="{{ '/assets/img/Cc-by-nc-sa_chico.png' | relative_url }}" class="img-fluid" alt="Licencia Creative Commons" >
+            </a>
+        </small>
     </div>
 
 </footer>

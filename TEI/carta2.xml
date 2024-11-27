@@ -10,10 +10,15 @@
         <title xml:id="carta2">Segunda carta al Dr. Castaño</title>
                     <author>Roberto Busa</author>
                     <editor>Sara Arribas Colmenar</editor>
+                    <editor>Gabriel Calarco</editor>
         <respStmt>
         <resp>Codificación de</resp>
                <persName>Sara Arribas Colmenar</persName>
             </respStmt>
+        <respStmt>        
+            <resp>Revisado por</resp>
+               <persName>Gabriel Calarco</persName>
+        </respStmt>
       </titleStmt>
       <publicationStmt>
         <publisher>HD LAB</publisher>
