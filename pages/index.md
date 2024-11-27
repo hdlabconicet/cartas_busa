@@ -1,6 +1,6 @@
 ---
 layout: home-infographic
-title: Cartas de Busa
+title: Busa's Letters
 permalink: /
 ---
 
