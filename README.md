@@ -1,7 +1,7 @@
 # Cartas de Busa
 Edición digital de las cartas del Padre Roberto Busa al Dr. Sergio Castaño. Una pequeña historia de las humanidades digitales en Argentina usando Collection Builder-CSV.
 
-[![DOI](https://zenodo.org/badge/830562305.svg)](https://doi.org/10.5281/zenodo.14231116)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14231117.svg)](https://doi.org/10.5281/zenodo.14231117)
 
 # CollectionBuilder-CSV
 
